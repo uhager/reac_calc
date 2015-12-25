@@ -1,0 +1,3 @@
+reac_calc calculates astrophysical reaction rates based on resonance strengths and S-factors.
+See 'example.reacConfig' for an example.
+Output is to stdout.

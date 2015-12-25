@@ -1,0 +1,30 @@
+## part of reac_calc
+## author: Ulrike Hager
+## example input file for 24Mg(a,g) resonances
+
+reaction
+	masses	24	4
+	protons 12	2
+	resonances
+		931.5	1.4e-5
+		969	1.6e-5
+		1009.9 2.2e-4
+		1094.37 5.8e-4
+		1158	0.002
+		1211	22e-5
+		1311	0.099
+		1531.2	6.0e-2
+		1600.47	4.3e-2
+		1794.5	3.5e-2
+		1915.3	5.4e-2
+		2038.2	6.0e-2
+		2087.2	0.33
+	end
+	sfactor	1.5e6	-217.1
+end
+##########
+temperatures
+	min	1e8
+	max	1e9
+	steps	50
+end
